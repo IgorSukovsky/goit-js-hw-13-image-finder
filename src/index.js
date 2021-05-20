@@ -4,6 +4,7 @@ import LoadMoreBtn from './js/load-more-btn';
 import listImg from './handlebars/listImg.hbs';
 import 'basiclightbox/dist/basicLightbox.min.css';
 import * as basicLightbox from 'basiclightbox';
+import './js/scroll.js';
 
 const loadMoreBtn = new LoadMoreBtn({
   selector: '[data-action="load-more"]',
